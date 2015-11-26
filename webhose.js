@@ -32,6 +32,8 @@ function callWebhose(url, container)
         {
             console.log(json)
 
+            //the counter that goes through the JSON data
+            
             var posts = json.posts
 
             var total = posts.length
@@ -39,9 +41,11 @@ function callWebhose(url, container)
             while (counter < total) 
             {
 
+                //Using the counter to go through the 'post' variable (Each Article)
+                
                 var post = posts[counter]
 
-                console.log(post)
+                console.log(post) 
 
                 console.log(post.title)
 
@@ -49,11 +53,15 @@ function callWebhose(url, container)
 
                 console.log(post.thread.main_image)
                 
+                //The List structure for the pulled content
+                
                 var li = '<li>'
 //                    + '<h2>' + post.title + '</h2>'
                     + '<img src="' + post.thread.main_image + '">'
                     + '<a href="' + post.url + '">' + post.title + '</a>'
                     + '</li>'
+                
+                //shows the list with content
                 
                 ul.append(li)
 
