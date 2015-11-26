@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title>Webhose Collections</title>
+
+		
+	</head>
+	<body>
+        
+        <div id="header">
+            <form id="newsearch" method="get" action="">
+                <input type="search" id="search" name="q" size="21" maxlength="120">
+                <input type="submit" value="Search" class="button">
+            </form>
+            <div class="clear"></div>
+        </div>
+
+        <script>
+            var search = document.getElementById('newsearch');
+            search.addEventListener('submit',function(e) {
+                e.preventDefault();
+                var query = document.getElementById('search').value;
+                
+                var URL = key + query + performance + site_mail + type
+                
+                console.log(URL)
+                
+            });
+
+            var search = document.getElementById('newsearch');
+            search.addEventListener('submit',function(e) {
+                e.preventDefault();
+                var query = document.getElementById('search').value;
+                
+                var URL = key + query + performance + site_bbc + type
+                
+                console.log(URL)
+                
+            });
+
+            var search = document.getElementById('newsearch');
+            search.addEventListener('submit',function(e) {
+                e.preventDefault();
+                var query = document.getElementById('search').value;
+                
+                var URL = key + query + performance + site_guardian + type
+                
+                console.log(URL)
+                
+            });
+
+        </script>
+        
+        <div id="logo">
+            <img src="">
+        
+        
+        
+        
+        </div>
+        
+        
+        <div id="">
+        
+        
+        
+        
+        </div>
+        
+        
+        
+        
+<!--
+        <div id="test">
+        
+            <script>
+                var xmlhttp = new XMLHttpRequest();
+                var url = key + query + performance + site_guardian + type;
+
+                xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                var myArr = JSON.parse(xmlhttp.responseText);
+                    myFunction(myArr);
+                }
+                };
+                xmlhttp.open("GET", url, true);
+                xmlhttp.send();
+
+                function myFunction(arr) {
+                    var out = "";
+                var i;
+                    for(i = 0; i < arr.length; i++) {
+                        out += '<a href="' + arr[i].url + '">' + 
+                arr[i].display + '</a><br>';
+                    }
+                document.getElementById("test").innerHTML = out;
+                }
+            </script>
+        
+        
+        </div>
+-->
+        
+	
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+		<script src="Webhose.js"></script>
+	</body>
+</html>
