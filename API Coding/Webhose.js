@@ -6,13 +6,19 @@
 
 console.log("WebHose is all good")
 
-var endpoint = 'https://webhose.io/search?token=ec4e5f81-890c-4ed6-b7ee-ac84249e74e4&format=json&q=('
+var key = 'https://webhose.io/search?token=ec4e5f81-890c-4ed6-b7ee-ac84249e74e4&format=json&q=('
 
 var performance = ')%20performance_score%3A%3E0'
 
-var site = '&site=dailymail.co.uk'
+var site_mail = '&site=dailymail.co.uk'
+
+var site_bbc = '&site=bbc.co.uk'
+
+var site_guardian = '&site=theguardian.com'
 
 var type = '&site_type=news'
+
+var recent = 'Osborne'
 
 $.ajax(
 {

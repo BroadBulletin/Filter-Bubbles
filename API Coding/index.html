@@ -9,7 +9,7 @@
         <div id="header">
             <form id="newsearch" method="get" action="">
                 <input type="search" id="search" name="q" size="21" maxlength="120">
-                <input type="submit" value="search" class="button">
+                <input type="submit" value="Search" class="button">
             </form>
             <div class="clear"></div>
         </div>
@@ -20,7 +20,29 @@
                 e.preventDefault();
                 var query = document.getElementById('search').value;
                 
-                var URL = endpoint + query + performance + site + type
+                var URL = key + query + performance + site_mail + type
+                
+                console.log(URL)
+                
+            });
+
+            var search = document.getElementById('newsearch');
+            search.addEventListener('submit',function(e) {
+                e.preventDefault();
+                var query = document.getElementById('search').value;
+                
+                var URL = key + query + performance + site_bbc + type
+                
+                console.log(URL)
+                
+            });
+
+            var search = document.getElementById('newsearch');
+            search.addEventListener('submit',function(e) {
+                e.preventDefault();
+                var query = document.getElementById('search').value;
+                
+                var URL = key + query + performance + site_guardian + type
                 
                 console.log(URL)
                 
