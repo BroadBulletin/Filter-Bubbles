@@ -110,6 +110,8 @@ a {
 	color:#FFF;
 }
 
+/* wraps ul elements */
+
 .content-wrapper {
 	overflow:auto;
 	width:100%;
