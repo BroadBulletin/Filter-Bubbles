@@ -35,15 +35,25 @@ input.search-field {
 	font-family:"Fira Sans";
 	color:#242424;
 	padding:10px;
+	border-radius:50px;
 	border:1px solid lightgray;
 }
 
 input.search-button {
 	background-color:transparent;
 	outline:none;
-	border:1px solid lightgray;
+	border:none;
 	padding:10px;
-	margin-top:10px;
+	border-radius:50px;
+	position:relative;
+	float:right;
+	height:47px;
+	width:47px;
+	top:-47px;
+	background-image:url(../logos/search.png);
+	background-size:25px;
+	background-position:center;
+	background-repeat:no-repeat;
 }
 
 .searchbar-wrapper {
