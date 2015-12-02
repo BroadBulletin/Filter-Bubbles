@@ -2,11 +2,13 @@
 
 //https://webhose.io/search?token=ec4e5f81-890c-4ed6-b7ee-ac84249e74e4&format=json&q=(Baby)%20performance_score%3A%3E0&site=dailymail.co.uk&site_type=news
 
-//https://webhose.io/search?token=ec4e5f81-890c-4ed6-b7ee-ac84249e74e4&format=json&q=(Baby)%20performance_score%3A%3E5&site=dailymail.co.uk&site_type=news
+//https://webhose.io/search?token=ec4e5f81-890c-4ed6-b7ee-ac84249e74e4&format=json&q=(Baby)%20performance_score%3A%3E5&site=dailymail.co.uk&site_type=new
+
+//https://webhose.io/search?token=ec4e5f81-890c-4ed6-b7ee-ac84249e74e4&format=json&q=Cameron%20thread.title%3A(Cameron)%20performance_score%3A%3E5&site=bbc.com&site_type=news
 
 console.log("WebHose is all good")
 
-var key = 'https://webhose.io/search?token=ec4e5f81-890c-4ed6-b7ee-ac84249e74e4&format=json&q=('
+var key = 'https://webhose.io/search?token=ec4e5f81-890c-4ed6-b7ee-ac84249e74e4&format=json&q='
 
 var performance = ')%20performance_score%3A%3E0'
 
@@ -17,6 +19,8 @@ var site_bbc = '&site=bbc.co.uk'
 var site_guardian = '&site=theguardian.com'
 
 var type = '&site_type=news'
+
+var title = '%20thread.title%3A('
 
 //var recent = 'Osborne'
 
