@@ -1,6 +1,6 @@
 body {
 	margin:0;
-	font-family:"Fira Sans";
+	font-family: 'Fira Sans', sans-serif;
 }
 
 /* styles the header element where the logo, search bar and the wrapper that surrounds the logo and search bar */
