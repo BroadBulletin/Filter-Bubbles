@@ -137,6 +137,31 @@ ul.posts li img
     float:left;
 }
 
-.logo-wrapper img {
-    width:33%;
+#guardian-logo {
+	width:33%;
+	display:inline-block;
+	text-align:center;
+	
+}
+
+#mail-logo {
+	width:33%;
+	display:inline-block;
+	text-align:center;
+}
+#bbc-logo {
+	width:33%;
+	display:inline-block;
+	text-align:center;
+}
+
+#guardian-logo img {
+	width:400px;
+}
+
+#mail-logo img {
+	width:400px;
+}
+#bbc-logo img {
+	width:400px;
 }
