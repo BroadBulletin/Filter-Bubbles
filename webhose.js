@@ -61,7 +61,7 @@ function callWebhose(url, container)
                 
                 var li = '<li>'
 //                    + '<h2>' + post.title + '</h2>'
-                    + '<img src="' + post.thread.main_image + '">'
+                    + '<a href="' + post.url + '">' + '<img src="' + post.thread.main_image + '">'
                     + '<div class="a-wrapper"><a href="' + post.url + '">' + post.title + '</a></div>'
                     + '</li>'
                 
