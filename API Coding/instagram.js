@@ -32,28 +32,27 @@ function handleData( json )
 	var total = pictures.length
 	var counter = 0
 	while (counter < total) 
+    {
+        console.log(counter)
 
-{
-console.log(counter)
+        var picture = pictures[counter]
 
-var picture = pictures[counter]
+        console.log(picture)
 
-console.log(picture)
+        var imageURL = picture.images.standard_resolution.url
 
-var imageURL = picture.images.standard_resolution.url
+        console.log(imageURL)
 
-console.log(imageURL)
+        var img = '<img src="'+imageURL + '">'
 
-var img = '<img src="'+imageURL + '">'
+        $('body').append(img)
 
-$('body').append(img)
+        //increment counter by 1
+        //counter = counter + 1
+        //counter += 1
+        counter ++
 
-//increment counter by 1
-//counter = counter + 1
-//counter += 1
-counter ++
-
-}
+    }
 
 
 }
